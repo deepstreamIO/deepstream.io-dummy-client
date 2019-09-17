@@ -1,0 +1,30 @@
+{
+  "name": "dummy-client",
+  "version": "0.0.0",
+  "description": "A dummy client to show how to connect to server quickly",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "./dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepstreamIO/deepstream.io-dummy-client.git"
+  },
+  "author": "deepstreamHub GmbH",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/deepstreamIO/deepstream.io-dummy-client/issues"
+  },
+  "homepage": "https://github.com/deepstreamIO/deepstream.io-dummy-client#readme",
+  "dependencies": {
+    "ws": "^7.1.2",
+    "@deepstream/protobuf": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^6.0.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}

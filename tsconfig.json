@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "typeRoots": [ "./types", "./node_modules/@types"],
+    "outDir": "dist",
+    "sourceMap": false,
+    "allowJs": false,
+    "strictNullChecks": true,
+    "strict": true,
+   "declaration": true,
+    //"noUnusedParameters": true,    
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*",
+    "package.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
