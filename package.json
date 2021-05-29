@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/deepstreamIO/deepstream.io-dummy-client#readme",
   "dependencies": {
-    "ws": "^7.1.2",
+    "ws": "^7.4.6",
     "@deepstream/protobuf": "^1.0.1"
   },
   "devDependencies": {
